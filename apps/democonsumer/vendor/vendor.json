@@ -1,0 +1,109 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "+Jp0tVXfQ1TM8T+oun82oJtME5U=",
+			"path": "github.com/Shopify/sarama",
+			"revision": "2fd980e23bdcbb8edeb78fc704de0c39a6567ffc",
+			"revisionTime": "2017-06-30T17:40:37Z"
+		},
+		{
+			"checksumSHA1": "okGXrwd9u2BIWm7yo5fopfMiOuI=",
+			"path": "github.com/bsm/sarama-cluster",
+			"revision": "f1ef2fda9bccc377dad24d7f7522d46b6a9a817b",
+			"revisionTime": "2017-07-31T13:08:41Z"
+		},
+		{
+			"checksumSHA1": "mrz/kicZiUaHxkyfvC/DyQcr8Do=",
+			"path": "github.com/davecgh/go-spew/spew",
+			"revision": "adab96458c51a58dc1783b3335dcce5461522e75",
+			"revisionTime": "2017-07-11T18:34:51Z"
+		},
+		{
+			"checksumSHA1": "y2Kh4iPlgCPXSGTCcFpzePYdzzg=",
+			"path": "github.com/eapache/go-resiliency/breaker",
+			"revision": "b1fe83b5b03f624450823b751b662259ffc6af70",
+			"revisionTime": "2017-06-07T16:36:15Z"
+		},
+		{
+			"checksumSHA1": "WHl96RVZlOOdF4Lb1OOadMpw8ls=",
+			"path": "github.com/eapache/go-xerial-snappy",
+			"revision": "bb955e01b9346ac19dc29eb16586c90ded99a98c",
+			"revisionTime": "2016-06-09T14:24:08Z"
+		},
+		{
+			"checksumSHA1": "oCCs6kDanizatplM5e/hX76busE=",
+			"path": "github.com/eapache/queue",
+			"revision": "44cc805cf13205b55f69e14bcb69867d1ae92f98",
+			"revisionTime": "2016-08-05T00:47:13Z"
+		},
+		{
+			"checksumSHA1": "p/8vSviYF91gFflhrt5vkyksroo=",
+			"path": "github.com/golang/snappy",
+			"revision": "553a641470496b2327abcac10b36396bd98e45c9",
+			"revisionTime": "2017-02-15T23:32:05Z"
+		},
+		{
+			"checksumSHA1": "I1cG6cOonIGizefRgKMf8JJDJeQ=",
+			"path": "github.com/lanfang/go-lib/log",
+			"revision": "7f1143676ce64ad8b773f57017e82106f51f6dd4",
+			"revisionTime": "2017-08-02T08:38:20Z"
+		},
+		{
+			"checksumSHA1": "ecKrh+GvW2G/rWQS8b/ERL6YtZc=",
+			"path": "github.com/lanfang/mysql-river/protocol",
+			"revision": "85f647372c10bf2fc85f89e2660fb5a9167629a1",
+			"revisionTime": "2017-08-07T03:32:30Z"
+		},
+		{
+			"checksumSHA1": "ShPRh4m5kY/Mx34Sknxo8nyAv+A=",
+			"path": "github.com/lanfang/mysql-river/queue",
+			"revision": "85f647372c10bf2fc85f89e2660fb5a9167629a1",
+			"revisionTime": "2017-08-07T03:32:30Z"
+		},
+		{
+			"checksumSHA1": "EQ4YJolGtpmKKwQkSweDQ5+yuqs=",
+			"path": "github.com/lanfang/mysql-river/utils",
+			"revision": "85f647372c10bf2fc85f89e2660fb5a9167629a1",
+			"revisionTime": "2017-08-07T03:32:30Z"
+		},
+		{
+			"checksumSHA1": "BoXdUBWB8UnSlFlbnuTQaPqfCGk=",
+			"path": "github.com/op/go-logging",
+			"revision": "970db520ece77730c7e4724c61121037378659d9",
+			"revisionTime": "2016-03-15T20:05:05Z"
+		},
+		{
+			"checksumSHA1": "8U5pEHFpXd1/Klgp+C/a6TqWoh8=",
+			"path": "github.com/philhofer/fwd",
+			"revision": "1612a298117663d7bc9a760ae20d383413859798",
+			"revisionTime": "2017-06-16T20:40:54Z"
+		},
+		{
+			"checksumSHA1": "FGg99nQ56Fo3radSCuU1AeEUJug=",
+			"path": "github.com/pierrec/lz4",
+			"revision": "5a3d2245f97fc249850e7802e3c01fad02a1c316",
+			"revisionTime": "2017-05-19T17:06:25Z"
+		},
+		{
+			"checksumSHA1": "zPWRjzsPeXCoqmidIcJtHbvrvRs=",
+			"path": "github.com/pierrec/xxHash/xxHash32",
+			"revision": "a0006b13c722f7f12368c00a3d3c2ae8a999a0c6",
+			"revisionTime": "2017-07-14T08:24:55Z"
+		},
+		{
+			"checksumSHA1": "KAzbLjI9MzW2tjfcAsK75lVRp6I=",
+			"path": "github.com/rcrowley/go-metrics",
+			"revision": "1f30fe9094a513ce4c700b9a54458bbb0c96996c",
+			"revisionTime": "2016-11-28T21:05:44Z"
+		},
+		{
+			"checksumSHA1": "XrFVebIhypqqAL5IxtWHJiMeRnk=",
+			"path": "github.com/tinylib/msgp/msgp",
+			"revision": "b2b6a672cf1e5b90748f79b8b81fc8c5cf0571a1",
+			"revisionTime": "2017-06-27T23:06:15Z"
+		}
+	],
+	"rootPath": "github.com/lanfang/mysql-river/apps/democonsumer"
+}

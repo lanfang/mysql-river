@@ -1,0 +1,34 @@
+{
+    "SourceConfig":{
+        "MysqlConn":"test:test@tcp(localhost:3306)",
+        "SyncAll":false,
+        "Sources":[
+            {
+                "Schema":"mall_db",
+                "Tables":[
+                    {
+                        "Table":"goods"
+                    },
+                    {
+                        "Table":"package",
+                        "Topic":"mytopic",
+                        "Key":"usr_id"
+                    }
+                ]
+            },
+            {
+                "Schema":"social_db",
+                "Tables":[
+                ]
+            }
+        ],
+        "BlackList":["test_db.test_table"]
+    },
+    "BrokerConfig":{
+        "LogDir":"./",
+        "LogFile":"binlogbroker.log",
+        "EtcdAddr":["http://localhost:2379"],
+        "KafkaAddr":["localhost:9092"],
+        "RPCListen":":8846"
+    }
+}
