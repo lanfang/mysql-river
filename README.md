@@ -43,6 +43,13 @@
 - broker_a(master)工作时，broker_b(slave)会休眠，不会连接到mysql实例
 - broker_a出现故障时会自动退出，此时broker_b转换为master; broker_a恢复时自动变为slave
 
+4、其他
+- binlogbroker启动时会获取上一次保存的master binlog 文件名和postion，获取不到的话会从最新位置开始
+- 删除etcd里面保存的position信息:
+```
+curl -XDELETE "http://localhost:2379/v2/keys/position/binlogbroker/db_name"
+db_name: 是binlogbroker命令行启动时的-g参数
+```
 ### 配置文件
   - 配置文件：
     > 一共两部分配置: broker自身相关的配置文件; 需要同步的数据源配置

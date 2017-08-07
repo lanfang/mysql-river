@@ -46,7 +46,7 @@ func (h *eventHandler) OnGTID(mysql.GTIDSet) error {
 func (h *eventHandler) OnRow(e *canal.RowsEvent) error {
 	rule, ok := h.c.getFilterInfo(e.Table.Schema, e.Table.Name)
 	if !ok {
-		log.Info("%+v.%+v filtered, continue", e.Table.Schema, e.Table.Name)
+		//log.Info("%+v.%+v filtered, continue", e.Table.Schema, e.Table.Name)
 		return nil
 	}
 	data := protocol.EventData{}
